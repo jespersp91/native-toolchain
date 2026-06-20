@@ -66,11 +66,12 @@
       "locked": {
         "narHash": "sha256-NNPC0yNg59jwykqkjGoCC1HwACyNVeXviBMzVZ4soeY=",
         "type": "file",
-        "url": "https://github.com/openlgtv/buildroot-nc4/releases/latest/download/arm-webos-linux-gnueabi_sdk-buildroot.tar.gz"
+        "url": "https://github.com/openlgtv/buildroot-nc4/releases/latest/download/arm-webos-linux-gnueabi_sdk-buildroot-x86_64.tar.gz"
       },
       "original": {
         "type": "file",
-        "url": "https://github.com/openlgtv/buildroot-nc4/releases/latest/download/arm-webos-linux-gnueabi_sdk-buildroot.tar.gz"
+        "url": "https://github.com/openlgtv/buildroot-nc4/releases/latest/download/arm-webos-linux-gnueabi_sdk-buildroot-x86_64.tar.gz
+"
       }
     }
   },
