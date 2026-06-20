@@ -13,6 +13,6 @@ RUN echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 RUN echo ". ~/.nix-profile/etc/profile.d/nix.sh" >> ~/.bashrc
 ENV USER ubuntu
 RUN  . ~/.nix-profile/etc/profile.d/nix.sh && nix profile install nixpkgs#python3 nixpkgs#gnumake42  nixpkgs#cmake nixpkgs#hexdump
-RUN  . ~/.nix-profile/etc/profile.d/nix.sh && nix develop github:rucadi/native-toolchain -c true
+RUN  . ~/.nix-profile/etc/profile.d/nix.sh && nix develop github:jespersp91/native-toolchain -c true
 RUN git clone 
-CMD  . ~/.nix-profile/etc/profile.d/nix.sh && nix develop github:rucadi/native-toolchain 
+CMD  . ~/.nix-profile/etc/profile.d/nix.sh && nix develop github:jespersp91/native-toolchain 
